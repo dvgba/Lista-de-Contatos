@@ -28,7 +28,7 @@ function TelefoneForm({ handleAddTelefone, setShowForm }) {
     return (
         <Paper elevation={4} style={formStyle}>
             <Typography variant="h7" gutterBottom>
-                Adicionar Contato
+                + Contato
             </Typography>
             <form onSubmit={handleSubmit}>
                 <Grid container spacing={4}>
@@ -67,7 +67,7 @@ function TelefoneForm({ handleAddTelefone, setShowForm }) {
                     type="submit"
                     style={buttonStyle}
                 >
-                    Adicionar
+                    + Contato
                 </Button>
                 <Button onClick={() => setShowForm(false)} style={buttonStyle}>
                     Cancelar

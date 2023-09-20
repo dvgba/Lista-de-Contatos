@@ -88,7 +88,7 @@ function TelefoneTable({ telefone, handleDeleteTelefone, setShowForm }) {
                     <TableRow>
                         <TableCell colSpan={3} align="center">
                         <Typography variant="subtitle1">
-                            Não há contatos disponíveis.
+                            Não há contatos.
                         </Typography>
                         </TableCell>
                     </TableRow>
@@ -119,7 +119,7 @@ function TelefoneTable({ telefone, handleDeleteTelefone, setShowForm }) {
         
             
             <Dialog open={openDialog} onClose={() => setOpenDialog(false)}>
-                <DialogTitle>Confirmar Exclusão</DialogTitle>
+                <DialogTitle>Confirmar exclusão</DialogTitle>
                 <DialogContent>
                 Tem certeza de que deseja excluir o contato "{telefoneToDelete?.title}"?
                 </DialogContent>

@@ -17,7 +17,6 @@ const appBarStyle = {
         };
 
 function App() {
-  // Estados locais para armazenar a lista de jogos e controlar a exibição do formulário
     const [telefone, setTelefone] = useState([]);
     const [showForm, setShowForm] = useState(false);
 
